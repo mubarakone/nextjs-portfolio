@@ -4,7 +4,7 @@ import { getBlogViews, getTweetCount, getStarCount } from 'lib/metrics';
 import {
   ArrowIcon,
   GitHubIcon,
-  TwitterIcon,
+  LinkedInIcon,
   ViewsIcon,
 } from 'components/icons';
 import { name, about, bio, avatar } from 'lib/info';
@@ -43,20 +43,20 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://github.com/mubarakone"
             className="flex items-center gap-2"
           >
-            <TwitterIcon />
-            {`${tweetCount.toLocaleString()} tweets all time`}
+            <GitHubIcon />
+            {`GitHub Profile`}
           </a>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/leerob"
+            href="https://www.linkedin.com/in/mubarak-usmane/"
             className="flex items-center gap-2"
           >
-            <GitHubIcon />
-            {`${starCount.toLocaleString()} stars on this repo`}
+            <LinkedInIcon />
+            {`LinkedIn Profile`}
           </a>
           <Link href="/blog" className="flex items-center">
             <ViewsIcon />

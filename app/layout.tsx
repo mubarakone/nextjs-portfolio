@@ -14,18 +14,18 @@ const kaisei = localFont({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Mubarak Usmane',
+    template: '%s | Mubarak Usmane',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Developer, entreprenuer, and creative.',
   openGraph: {
-    title: 'Lee Robinson',
-    description: 'Developer, writer, and creator.',
-    url: 'https://leerob.io',
-    siteName: 'Lee Robinson',
+    title: 'Mubarak Usmane',
+    description: 'Developer, entreprenuer, and creative.',
+    url: 'https://mubarakusmane.us',
+    siteName: 'Mubarak Usmane',
     images: [
       {
-        url: 'https://leerob.io/og.jpg',
+        url: '',
         width: 1920,
         height: 1080,
       },
