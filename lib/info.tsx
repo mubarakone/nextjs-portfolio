@@ -12,7 +12,7 @@ export const about = () => {
 export const bio = () => {
   return (
     <>
-      JavaScript, React, Next, Node, Express, Python, C++.
+      JavaScript, TypeScript, React, Next, Node, Express, Python, C++.
       <br />
         <b>New website coming soon...</b>
     </>
